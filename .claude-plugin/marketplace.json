@@ -1,6 +1,6 @@
 {
   "name": "ai-search-skills",
-  "owner": { "name": "Sourav Pati" },
+  "owner": { "name": "Sagelyn", "url": "https://sagelyn.ai" },
   "description": "Free Claude skills for getting found and recommended by AI search.",
   "plugins": [
     { "name": "linkedin-profile-audit", "source": "./plugins/linkedin-profile-audit",
