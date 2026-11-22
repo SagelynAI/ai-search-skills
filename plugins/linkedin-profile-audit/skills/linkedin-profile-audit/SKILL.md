@@ -1,46 +1,42 @@
 ---
 name: linkedin-profile-audit
-description: Audit and rewrite a LinkedIn profile so that both people and AI search engines (ChatGPT, Gemini, Perplexity, Google AI Overviews) can tell in seconds who the person helps, with what, where, and why to trust them. Use when someone shares a LinkedIn profile (PDF export, pasted text, or public URL) and asks to audit, optimize, fix, rewrite, or score it, or asks why their profile brings no leads.
+description: Audit and rewrite a LinkedIn profile so it turns visitors into customer conversations, and so AI search engines (ChatGPT, Gemini, Perplexity, Google AI Overviews) can say who the person helps and why. Use when someone shares a LinkedIn profile (PDF export, pasted text or public URL) and asks to audit, optimize, fix, rewrite or score it, or asks why their profile brings no leads or customers.
 ---
 
-# LinkedIn profile audit (people + AI search)
+# LinkedIn profile audit: built to get customers
 
-A profile has two readers now:
-1. **A person** who clicked from a post or comment. They decide in about five seconds.
-2. **An AI engine** answering "who's a good X for Y in Z?". It usually reads the **logged-out public page**, where the headline, the first lines of About and the experience titles carry most of the weight. It can only repeat what is written plainly; it can't infer a credential from a job list.
+**The job of a profile is to start conversations with buyers.** Not to prove expertise, not to list a career. Someone clicked through from a post or a comment; in about five seconds they decide whether this person can solve their problem and whether to message them. A profile that proves you are smart but doesn't say what the buyer gets, or how to start, is a CV, and a CV brings job offers, not customers.
 
-Most audits only serve reader 1. This one serves both.
+A second reader matters too: **AI search engines** answering "who can help me with X?". They read the logged-out public page and can only repeat what is written plainly.
 
-## Input
+## Before scoring, get three facts (ask; never guess)
 
-Best: the PDF from the profile (More → Save to PDF). It has the full About and every role.
-Also good: pasted headline, About and experience. A public URL alone shows only the logged-out view; audit that too, since that is what AI engines see, but ask for the PDF before rewriting.
+1. **The buyer.** Who pays them, in one sentence ("owners of roofing companies in Texas", "Series A SaaS founders"). Not "businesses".
+2. **The offer that starts a conversation.** The smallest useful thing a buyer can ask for: a free review, a 15-minute call, a teardown of their X. One offer.
+3. **The best proof a buyer would care about.** A customer result with a number, a named customer (with their permission), or a before/after. Credentials (employers, years, degrees) come second.
 
-Ask for two facts if they aren't clear from the profile (never guess them):
-- **Who they want as clients or employers** (one sentence).
-- **The one proof they are proudest of** (a result, number, employer, or credential).
+Input: the PDF from the profile (More → Save to PDF) is best. A public URL alone only shows the logged-out view; audit that as "what AI and strangers see", then ask for the PDF.
 
 ## Score (out of 50)
 
-Score each area 0 to 10 and give one line of reason.
-
 | Area | 10 means |
 |---|---|
-| **Headline** | Says who they help, with what, and one proof, in plain words. No slogans, no keyword soup. Under 220 characters. |
-| **First 3 lines of About** | Visible before "see more": who they help, the result, and why them. Readable by someone who skipped the headline. |
-| **Proof** | Specific numbers, named employers or clients, years, publications. Stated as sentences, not buried in bullet 7 of a 2019 role. |
-| **AI citability** | An engine could quote one sentence that answers "who is a good X for Y in Z" and name this person. Entity facts are consistent: name, company, city, specialty. No claims that contradict the company website. |
-| **Next step** | One clear action (a link, a free check, "message me with Y"), not five offers. |
+| **Headline sells** | Names the buyer's problem or the result they get, in their words. Title and company come last. Under 220 characters. |
+| **First 3 lines of About** | Visible before "see more": line 1 the buyer's problem, line 2 the offer (what to send or ask for), line 3 how you fix it. No life story, no industry statistics. |
+| **Proof a buyer trusts** | Customer results first (named, with a number), then credentials as the reason to believe. Proof sits near the top, not in a 2019 role. |
+| **One clear next step** | One low-effort action, repeated in About and Featured: "message me X", a booking link, a free review. Not five offers. |
+| **Findable by AI** | One plain sentence AI could quote: who they help, with what, where. Name, company, city and specialty match the company website exactly. |
 
 ## Rules for the rewrite
 
-- **Plain sentences beat formatting.** Emojis, "⭐" bullets and run-together text (lost line breaks) make the About hard for both readers. One idea per line.
-- **Lead with the credential that makes them different**, not with the industry problem everyone states.
-- **Name the audience and the place** when the work is local ("local service businesses in Texas").
-- **Every claim must be true today.** If the profile sells a product, check each feature and price against the company's own site or product docs. Remove anything not yet live. A wrong claim that AI repeats is worse than no claim.
-- **Keep the person's voice.** If they write short and blunt, the rewrite is short and blunt.
-- **No dashes as punctuation** in the rewritten text if the person has asked for that style.
-- Old roles: keep, but trim to one line of the most transferable proof each. Fix typos ("Cleint").
+- **Problem, offer, proof, in that order.** Credentials support the offer; they never open it.
+- **Write in the buyer's words**, not the seller's ("ChatGPT sends your customers to a competitor", not "AI-native multi-LLM visibility platform").
+- **One offer.** If they sell several things, lead with the one that starts conversations; the rest go in one line further down.
+- **Featured section sells**: a customer result, the post that got the most buyer comments, a booking link. Point this out even if Featured is empty.
+- **Every claim must be true today.** Check each product feature and price against the company's own site or docs. Remove anything not live or not approved. Name a customer only with their permission. A wrong claim that AI repeats is worse than no claim.
+- **Location matches the business listing** (website, Google Business Profile) exactly.
+- **Plain sentences, one idea per line.** No emoji bullets, no keyword lists. Keep the person's voice.
+- Old roles: one line each with the proof most relevant to the buyer. Fix typos.
 
 ## Output
 
@@ -49,13 +45,27 @@ SCORE: xx/50
 | Area | Score | Why |
 
 TOP 3 FIXES (biggest first, each ready to paste)
-1. ...
 
-HEADLINE: 5 options
-ABOUT: full rewrite (first 3 lines marked)
-EXPERIENCE: rewritten current role + one-line trims for old roles
-WHAT AN AI ENGINE SEES TODAY: 3 bullets, from the logged-out view
-CHECK BEFORE POSTING: claims that need verifying against the website
+HEADLINE: 5 options (best first)
+ABOUT: full rewrite, first 3 lines marked
+FEATURED: what to pin, in order
+EXPERIENCE: current role rewritten; one-line trims for old roles
+WHAT A STRANGER AND AN AI SEE TODAY: 3 bullets from the logged-out view
+CHECK BEFORE POSTING: claims, prices and customer names that need verifying or permission
+ONLY YOU CAN DO: e.g. get a customer's yes to be named; reply to every DM within a day
 ```
 
-Then stop. The person pastes the changes themselves.
+Then stop. The person pastes the changes themselves (LinkedIn has no API for editing a profile).
+
+## Example (the author's own profile, before → after)
+
+Before, headline: "I help local businesses get recommended when customers ask ChatGPT, Gemini | Founder, Sagelyn"
+After, headline: "ChatGPT is sending your customers to a competitor. I show you why and fix it | Founder, Sagelyn"
+
+Before, About opened with an industry problem, then listed seven services and two prices in one block.
+After, first three lines:
+> When a customer asks ChatGPT for a roofer, a cleaner or a dentist near them, it names two or three businesses. If you're not one of them, that customer never sees you.
+> I'll show you which competitors AI picks instead of you, and why. Message me your business name and city.
+> Then my team and our AI employees fix it: your website, your listings, your content, until AI recommends you.
+
+Why: the old version described the seller; the new one names the buyer's loss, gives one offer in line two, and moves the credential (twenty years of software, search systems on Elasticsearch) down to "why me".

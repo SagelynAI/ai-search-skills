@@ -4,6 +4,6 @@
   "description": "Free Claude skills for getting found and recommended by AI search.",
   "plugins": [
     { "name": "linkedin-profile-audit", "source": "./plugins/linkedin-profile-audit",
-      "description": "Audit and rewrite a LinkedIn profile for people and for AI search engines." }
+      "description": "Rewrite a LinkedIn profile to win customers, and to be recommended by AI search." }
   ]
 }

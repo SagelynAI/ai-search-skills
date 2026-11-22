@@ -4,9 +4,10 @@ Free Claude skills for getting found and recommended by AI search.
 
 ## LinkedIn profile audit
 
-Your profile has two readers now: the person who clicked from your post, and the AI engine
-answering "who's a good X in my city?". This skill scores your profile for both (out of 50),
-gives the top 3 fixes ready to paste, five headlines, and a full About rewrite.
+A profile's job is to start conversations with buyers, not to list a career. This skill
+rewrites yours around the buyer's problem, one offer and proof they trust, and makes sure
+AI search engines (ChatGPT, Gemini, Perplexity) can say who you help. You get a score out
+of 50, the top 3 fixes ready to paste, five headlines, a full About, and what to pin in Featured.
 
 **Claude Code**
 ```
