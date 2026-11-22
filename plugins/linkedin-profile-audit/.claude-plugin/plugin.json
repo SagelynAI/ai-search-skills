@@ -1,3 +1,3 @@
-{ "name": "linkedin-profile-audit", "version": "1.1.0",
+{ "name": "linkedin-profile-audit", "version": "1.2.0",
   "description": "Rewrite a LinkedIn profile to win customers, and to be recommended by AI search.",
   "author": { "name": "Sourav Pati" } }
